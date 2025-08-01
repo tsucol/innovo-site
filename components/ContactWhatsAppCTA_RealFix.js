@@ -2,6 +2,7 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function ContactCTA() {
+   const whatsappUrl = `https://wa.me/59899318273?v=${Date.now()}`;
   return (
     <section style={{ textAlign: 'center', marginTop: '3rem' }}>
       <h2>¿Necesitás un presupuesto?</h2>
