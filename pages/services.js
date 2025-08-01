@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import HoverCardButton from "../components/HoverCardButton";
-import ContactCTA from "../components/ContactWhatsAppCTA_RealFix";
+import ContactCTA from "../components/ContactWhatsAppCTA_Final";
 import HoverButton from "../components/HoverButton";
 import Image from "next/image";
 import Link from "next/link";
