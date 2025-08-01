@@ -61,28 +61,8 @@ export default function HomePage() {
         <ServiceCard icon={<FaChargingStation />} title="EV Chargers" desc="We install home and business EV chargers with professional guidance." />
         <ServiceCard icon={<FaTools />} title="Other Services" desc="Sauna installation, refrigerator repair, and custom electrical solutions." />
       </section>
-
-      <section style={{ textAlign: 'center', marginTop: '3rem' }}>
-        <h2>Need a quote?</h2>
-        <p>Contact us on WhatsApp.</p>
-        <a href="https://wa.me/59812345678" target="_blank" rel="noopener noreferrer">
-          <button style={{
-            marginTop: '1rem',
-            padding: '0.75rem 2rem',
-            fontSize: '1rem',
-            backgroundColor: '#25D366',
-            color: 'white',
-            border: 'none',
-            borderRadius: '4px',
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            cursor: 'pointer'
-          }}>
-            <FaWhatsapp size={20} /> WhatsApp
-          </button>
-        </a>
-      </section>
+        <ContactCTA />
+      
     </div>
   );
 }
